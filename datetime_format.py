@@ -1,4 +1,4 @@
-class datetimeformat:
+class datetime_format:
     '''datetimeformat class has methods which take user input datetime 
         format and convert them into user defineddatetime format. 
         Note that input and output values are string type. By default, the output datetime format has values.
