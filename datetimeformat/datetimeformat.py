@@ -1,7 +1,13 @@
 class datetimeformat:
     '''datetimeformat class has methods which take user input datetime 
         format and convert them into user defineddatetime format. 
-        Note that input and output values are string type. By default, the output datetime format has values.'''
+        Note that input and output values are string type. By default, the output datetime format has values.
+        ------methods------
+        1. dateformat(input_date, input_date_format, output_date_format):e.g ('2018-16-03', '%y-%d-%m', '%y/%m/%d') => ('2018/03/16')
+        2. timeformat(input_time, input_time_format, output_time_format) :e.g ('02:10:03', 'h:s:m', 'h:m:s') => ('02:03:10')
+        3. datetimeformat(input_datetime, input_datetime_format, output_datetime_format):e.g ('2018-16-03 02:10:03', '%y-%d-%m h:s:m', '%y/%m/%d h:m:s') => ('2018/03/16 02:03:10')
+        
+        '''
     def __init__(self):
         pass
     
