@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
       name = 'datetime_format',         # How you named your package folder (MyLib)
       packages = ['datetime_format'],   # Chose the same as "name"
-      version = 'v1.0.3',      # Start with a small number and increase it with every change you make
+      version = '1.0.3',      # Start with a small number and increase it with every change you make
       license=None,        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
       description = 'It converts dateime string into another datetime string with formatting done on it by user',   # Give a short description about your library
       author = 'Prakash Besra',                   # Type in your name
